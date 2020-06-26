@@ -3,6 +3,10 @@
 import requests
 import sys
 import socket
+import warnings
+
+# Remove unnecessary warnings (v0.2.0)
+warnings.filterwarnings("ignore")
 
 
 def detect(protocol, url):
